@@ -12,7 +12,7 @@ I build AI systems — usually the whole thing, model down through frontend. Mos
 
 **Jigsaw rule classification (Kaggle)** — 5-branch ensemble: DeBERTa, DistilRoBERTa, Qwen embeddings, and a Qwen-14B served through vLLM with GPTQ 4-bit. 0.944 MAP@3, top 15% of 2,445 teams. End-to-end pipeline Open sourced.
 
-**Elfie** — clinical lab report processor. PDF in; LOINC-mapped, unit-normalized, severity-graded analytes out, with lineage logged for every step. Clinical decisions are deterministic on purpose; the LLM only writes the narrative at the end. Top 7 at Qwen Healthcare Build Day. Finalist top 7 of Qwen AI Build Day Healthcare track.
+**Elfie** — clinical lab report processor. PDF in; LOINC-mapped, unit-normalized, severity-graded analytes out, with lineage logged for every step. Clinical decisions are deterministic on purpose; the LLM only writes the narrative at the end. Finalist top 7 of Qwen AI Build Day Healthcare track.
 
 ## What I usually reach for
 
