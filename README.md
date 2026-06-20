@@ -1,41 +1,34 @@
-# Hi, I'm Thien 🚀
+# Hi, I’m Thien 🚀
 
-*Generalist AI/ML Engineer & Full-stack Developer*
+**Generalist AI/ML Engineer & full-stack developer** building AI systems end-to-end: models, pipelines, backend, and frontend. Focused on multimodal LLM products, efficient ML pipelines, quantized inference, and out-of-core data.
 
-I build AI systems — usually the whole thing, model down through frontend. Most of my time right now goes to multimodal LLM products and ML pipelines that have to run in tight memory or time budgets.
+## Projects
 
-## A few things I made 🛠️
+**Journie** — multimodal journaling app turning photos, voice, and text into daily narratives via Qwen/GPT-4o + long-term memory. 2nd “Best Use of Qwen,” LotusHacks 2026. NestJS, React, Supabase, Vercel.
 
-**Journie** — a journaling app where photos, voice, and text become a daily narrative through a staged Qwen / GPT-4o pipeline with a long-term memory store. Won 2nd "Best Use of Qwen" at LotusHacks 2026. NestJS + React + Supabase on Vercel.
+**Quant ML pipeline** — broker ticks → validated features in ms; 300M+ ticks, ~100:1 event-bar compression, Polars streaming, Numba, purged k-fold, monotone/adversarial audits. Proprietary; optimized engine OSS.
 
-**Quant ML pipeline** — broker ticks to validated features in milliseconds, trained and backtested on 300m+ ticks, with ~100:1 compression to event bars. Polars streaming, Numba JIT, purged k-fold, monotone-constraint and adversarial-feature audits. Proprietary. Hyper-optimized engine Open sourced.
+**Jigsaw rule classification** — 5-branch DeBERTa/DistilRoBERTa/Qwen ensemble with Qwen-14B via vLLM + GPTQ 4-bit. 0.944 MAP@3, top 15% / 2,445 teams. Pipeline OSS.
 
-**Jigsaw rule classification (Kaggle)** — 5-branch ensemble: DeBERTa, DistilRoBERTa, Qwen embeddings, and a Qwen-14B served through vLLM with GPTQ 4-bit. 0.944 MAP@3, top 15% of 2,445 teams. End-to-end pipeline Open sourced.
+**Elfie** — clinical lab PDF processor producing LOINC-mapped, unit-normalized, severity-graded analytes with full lineage. Deterministic clinical logic; LLM narrative only. Top-7 finalist, Qwen AI Build Day Healthcare.
 
-**Elfie** — clinical lab report processor. PDF in; LOINC-mapped, unit-normalized, severity-graded analytes out, with lineage logged for every step. Clinical decisions are deterministic on purpose; the LLM only writes the narrative at the end. Finalist top 7 of Qwen AI Build Day Healthcare track.
+## Stack
 
-## What I usually reach for
+Python, Polars, Numba, PyTorch, vLLM. TypeScript, React, NestJS, Next.js. Postgres, Supabase.
 
-Python with Polars, Numba, PyTorch, vLLM. TypeScript with React, NestJS, Next.js. Postgres or Supabase underneath. I like quantized inference and out-of-core data more than is probably healthy.
+## Current
 
-## Right now 🔨
-
-Cleaning up the quant pipeline for an OSS release. Also still fixing the weekly-summary unique-key collision in Journie that's been staring at me for weeks.
-Working on a Research paper about Frontier Models' Research Reliability.
-Building campus-wide impact productivity apps leveraging AI.
+Open-sourcing the quant pipeline. Fixing Journie’s weekly-summary key collision. Researching frontier-model research reliability. Building AI productivity apps for campus impact.
 
 ## Honest gaps
 
-No published papers. No production traffic numbers — this is hackathon, competition, and portfolio work. When I say "agentic" I mean structured pipelines, not autonomous tool-use loops.
+No published papers yet. No production traffic numbers. “Agentic” means structured pipelines, not autonomous tool-use loops.
 
-## Looking up to
+## Looking for
 
-- Publish a research paper this year.
-- Any tech internships, especially AI/ML ones.
-- Found BK Agentic Engineering, aim to recombobulate the Agentic Workflow in both Software Engineering and Research.
-- Create impact.
+AI/ML internships, research publication, BK Agentic Engineering, and work with real impact.
 
 ## Reach me
 
-- Email: hoanglebathien@gmail.com   
-- LinkedIn: https://www.linkedin.com/in/hlbathien/
+[hoanglebathien@gmail.com](mailto:hoanglebathien@gmail.com)
+https://www.linkedin.com/in/hlbathien/
